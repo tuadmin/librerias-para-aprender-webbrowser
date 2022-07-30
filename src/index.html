@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webspeech</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div>
+        <b id="preview-record"></b>
+        <br>
+        <table>
+            <tr>
+                <td> 
+                    <textarea name="reconocido" id="reconocido" cols="30" rows="10"></textarea>
+                </td>
+                <td>
+                    <label for=""> <input type="checkbox" id="opt-interimResults"> opcion interimResults</label><br>
+                    <label for=""> <input type="checkbox" id="opt-continuos"> opcion continuos</label>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" style="color:red" id="error"></th>
+            </tr>
+        </table>
+
+       
+        <button id="record-start">reconocer</button>
+        <button id="record-stop">detener</button>
+    </div>
+
+</body>
+</html>
