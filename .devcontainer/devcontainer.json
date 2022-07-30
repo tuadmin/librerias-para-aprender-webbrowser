@@ -22,7 +22,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ritwickdey.LiveServer",
 				"GitHub.copilot",
 				"yandeu.five-server"
 			]
